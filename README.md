@@ -2,7 +2,7 @@
 
 The TypeScript source is in `src/`. Run `npm ci && npm run build` to generate `main.js`. The build bundles mathjs but does not embed a source map or local filesystem paths.
 
-Evaluate Numi-style expressions inside Obsidian Markdown.
+Evaluate Numi-style expressions in Markdown code blocks.
 
 - `numi` code blocks are evaluated line-by-line with variables that persist within the block.
 - Command “Evaluate selection (Numi-like)” evaluates the selection using a persistent session scope.

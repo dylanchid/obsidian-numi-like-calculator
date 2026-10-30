@@ -61,7 +61,7 @@ export default class NumiLikePlugin extends Plugin {
 
     // Command: evaluate current selection and replace it with result
     this.addCommand({
-      id: 'numi-evaluate-selection',
+      id: 'evaluate-selection',
       name: 'Evaluate selection (Numi-like)',
   editorCallback: (editor: Editor) => {
         const sel = editor.getSelection();
@@ -77,7 +77,7 @@ export default class NumiLikePlugin extends Plugin {
 
     // Command: reset session scope
     this.addCommand({
-      id: 'numi-reset-session-scope',
+      id: 'reset-session-scope',
       name: 'Reset Numi-like session scope',
       callback: () => {
         this.sessionScope = {};
