@@ -1,0 +1,10 @@
+{
+  "id": "numi-like-calculator",
+  "name": "Numi-like Calculator (Unofficial)",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Evaluate Numi-style expressions in Markdown code blocks inside Obsidian.",
+  "author": "dylanchid",
+  "authorUrl": "https://github.com/dylanchid",
+  "isDesktopOnly": false
+}
