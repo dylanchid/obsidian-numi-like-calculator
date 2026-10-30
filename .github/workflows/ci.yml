@@ -11,6 +11,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: node --check main.js
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
       - name: Validate manifest
         run: node -e "const m=require('./manifest.json'); if (!m.id || !m.name || !/^\d+\.\d+\.\d+$/.test(m.version)) process.exit(1)"
